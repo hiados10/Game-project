@@ -15,7 +15,7 @@ SDL_Rect pos;
 int done=1;
 //ecran=SetVideoMode(2048,297,)
 ecran=SDL_SetVideoMode(800,1200,32,SDL_HWSURFACE | SDL_DOUBLEBUF);
-bg=SDL_LoadBMP("bg.png");
+bg=SDL_LoadBMP("bg.bmp");
 pos.x=0;
 pos.y=0;
 while(done)
